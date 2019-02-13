@@ -1,0 +1,71 @@
+#########################################################################
+				ENGLISH
+#########################################################################
+This python programm allows to realize modularis multiplications
+
+Explanation : 
+
+- Let be a circle divided by n points
+- Let's take a multiplication table : let's say te table of 2
+- In our example for each point of tehe circle we multiplie it by the table of 2
+- Then we draw a line from the circle point to its result
+- Some draws may then appear
+
+The args to give to the script are the following : 
+
+- nb of divisions of the circle
+- nb of point on which to draw the line onto (i = to n -> 1 circle turn, if = 1°*n -> 10 circle turns)
+- multiplication table
+- refresh speed in sec
+
+Some nices draws : 
+
+python modulo.py 100 1000 5 0.01
+python modulo.py 100 1000 3 0.01
+python modulo.py 237 1000 40 0.01
+python modulo.py 216 1000 53 0.01
+python modulo.py 216 1000 73 0.01
+python modulo.py 136 1000 73 0.01
+python modulo.py 270 1000 136 0.01
+python modulo.py 300 1000 31 0.01
+
+We can notice that on "little tables" some "flowers" appears with a number of petals equal to the table-1.
+For instance if we give a try with the table of 3 we'll have a flower with 2 petals.
+
+Have Fun !
+
+#######################################################################
+				FRENCH
+#######################################################################
+
+Ce programme python permet de réaliser de multiplications modulaires.
+
+Explication : 
+
+- Soit un cercle divisé en n points
+- On prend une table de multiplication exemple : la table de 2
+- Dans notre exemple pour chaque point du cercle on le multiplie par la table de 2
+- On trace alors une ligne qui va du point du cercle à son résultat 
+- Des figures sont alors susceptibles d'apparaître
+
+Les arguments à passer au script sont les suivants:
+
+- nombre de divisions du cercle
+- nombre de points sur lesquels tracer la ligne (si = à n -> un seul tour du cercle si = à 10*n -> 10 tours de cercle)
+- table de multiplication
+- vitesse de rafraîchissement en seconde
+
+Exemples de commandes qui donnent des figures:
+
+python modulo.py 100 1000 5 0.01
+python modulo.py 100 1000 3 0.01
+python modulo.py 237 1000 40 0.01
+python modulo.py 216 1000 53 0.01
+python modulo.py 216 1000 73 0.01
+python modulo.py 136 1000 73 0.01
+python modulo.py 270 1000 136 0.01
+python modulo.py 300 1000 31 0.01
+
+On remarque que sur les "petites tables" des "fleurs" apparaissent avec un nombre de pétales égal à la table de multiplication-1 par exemple si on travaille sur la table de 3 on aura une fleur à 2 pétales
+
+Have Fun !
